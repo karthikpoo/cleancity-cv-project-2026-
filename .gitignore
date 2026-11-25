@@ -21,3 +21,8 @@ frontend/dist/
 
 # Uploaded images and local test data
 api_uploads/
+# Generated Python files
+*.egg-info/
+
+# Temporary files
+test.txt
