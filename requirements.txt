@@ -1,0 +1,7 @@
+Pillow>=10.0
+numpy>=1.26
+opencv-python-headless>=4.9
+transformers>=4.40
+torch>=2.2
+pytest>=8.0
+scikit-learn>=1.4

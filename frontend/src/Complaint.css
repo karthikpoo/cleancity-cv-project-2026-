@@ -1,0 +1,66 @@
+.complaint-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background: #e8f7ed;
+}
+
+.complaint-container {
+  max-width: 650px;
+  margin: auto;
+  padding: 35px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.complaint-container h1 {
+  color: #16834b;
+  margin-bottom: 10px;
+}
+
+.complaint-container > p {
+  color: #718078;
+  margin-bottom: 30px;
+}
+
+.complaint-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.complaint-container label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.complaint-container input,
+.complaint-container select,
+.complaint-container textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d5e2d9;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.complaint-container textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.complaint-container button {
+  margin-top: 20px;
+  padding: 15px;
+  background: #16834b;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.complaint-container button:hover {
+  background: #10683b;
+}

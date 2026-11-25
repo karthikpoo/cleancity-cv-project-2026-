@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE and logs
+.vscode/
+*.log
+.DS_Store
+
+# Uploaded images and local test data
+api_uploads/

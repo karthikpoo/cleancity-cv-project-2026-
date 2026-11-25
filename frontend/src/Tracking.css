@@ -1,0 +1,63 @@
+.tracking-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: #e8f7ed;
+}
+
+.tracking-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.tracking-container h1 {
+  color: #16834b;
+  margin-bottom: 12px;
+}
+
+.tracking-container > p {
+  color: #718078;
+  margin-bottom: 30px;
+}
+
+.tracking-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tracking-container label {
+  font-weight: bold;
+}
+
+.tracking-container input {
+  padding: 14px;
+  border: 1px solid #d5e2d9;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.tracking-container button {
+  padding: 14px;
+  background: #16834b;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tracking-result {
+  margin-top: 30px;
+  padding: 20px;
+  background: #e8f7ed;
+  border-radius: 10px;
+  line-height: 2;
+}
+
+.tracking-result h3 {
+  color: #16834b;
+}

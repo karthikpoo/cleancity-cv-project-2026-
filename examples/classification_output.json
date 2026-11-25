@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "classification": {
+    "selected_category": "garbage_accumulation",
+    "supported": true,
+    "detected_categories": [
+      "garbage_accumulation"
+    ],
+    "ranked_category_scores": [
+      {
+        "category": "garbage_accumulation",
+        "similarity_score": 0.71
+      }
+    ],
+    "score_type": "relative_model_similarity_not_calibrated_probability",
+    "observations": [
+      "Illustrative schema only; scores are not production measurements."
+    ],
+    "visible_objects": []
+  },
+  "model_name": "openai/clip-vit-base-patch32",
+  "error": null
+}

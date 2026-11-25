@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cleancity-cv-engine"
+version = "0.1.0"
+description = "Independent computer-vision modules for environmental complaint classification and sanitation PoW review"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0", "numpy>=1.26", "opencv-python-headless>=4.9"]
+
+[project.optional-dependencies]
+clip = ["transformers>=4.40", "torch>=2.2"]
+test = ["pytest>=8.0", "scikit-learn>=1.4"]
+
+[project.scripts]
+cleancity-cv = "environmental_complaint_ai.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

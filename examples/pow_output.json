@@ -1,0 +1,17 @@
+{
+  "pow_analysis": {
+    "status": "success",
+    "verification_result": "inconclusive",
+    "before_image_quality": "acceptable",
+    "after_image_quality": "acceptable",
+    "same_scene_assessment": "likely_same_scene",
+    "visual_change_detected": true,
+    "issue_still_visible": null,
+    "observations": [
+      "Illustrative only: issue-specific semantic evidence is not configured."
+    ],
+    "requires_human_review": true,
+    "model_name": "pow_comparison_baseline",
+    "error": null
+  }
+}
